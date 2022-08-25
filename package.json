@@ -17,6 +17,7 @@
     "gitbook-plugin-expandable-chapters": "^0.2.0",
     "gitbook-plugin-fontsettings": "^2.0.0",
     "gitbook-plugin-heading-anchors": "^1.0.3",
-    "gitbook-plugin-search-pro": "^2.0.2"
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-theme-fexa": "^1.0.6"
   }
 }

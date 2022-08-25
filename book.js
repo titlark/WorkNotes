@@ -9,9 +9,9 @@ module.export = {
     "styles": {
 
     },
-    "structure": {
-        "readme": "README.md"
-    },
+    // "structure": {
+    //     "readme": "README.md"
+    // },
     "links": {
 
     },
@@ -32,6 +32,8 @@ module.export = {
         "-fontsettings",
         // 
         "heading-anchors",
+        // 主题
+        "theme-fexa",
     ],
     "pluginsConfig": {
         // 去掉 code 插件中的复制按钮 true：显示复制按钮 false：不显示复制按钮
@@ -59,6 +61,22 @@ module.export = {
             "theme": 'white', // 'sepia', 'night' or 'white',
             "family": 'sans', // 'serif' or 'sans',
             "size": 2         // 1 - 4
+        },
+        "theme-fexa": {
+            "search-placeholder": "输入关键字搜索",
+            "logo": "./logo.png",
+            "favicon": "./favicon.ico"
         }
-    }
+    },
+    "variables": {
+        "themeFexa":{
+            "nav":[
+                {
+                    "url":"/worknotes/java/java.html",
+                    "target":"_blank",
+                    "name": "JAVA"
+                }
+            ]
+        },
+    },
 }
