@@ -1,0 +1,4 @@
+# 把不需要打包进去的文件，在此处进行配置
+package.json
+package-lock.json
+.bookignore
