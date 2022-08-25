@@ -72,7 +72,7 @@ module.export = {
         "themeFexa":{
             "nav":[
                 {
-                    "url":"/worknotes/java/java.html",
+                    "url":"/docs/java/java.html",
                     "target":"_blank",
                     "name": "JAVA"
                 }
