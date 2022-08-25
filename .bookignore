@@ -1,4 +1,5 @@
 # 把不需要打包进去的文件，在此处进行配置
+docs
 package.json
 package-lock.json
 .bookignore
