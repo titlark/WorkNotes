@@ -1,5 +1,5 @@
 {
-  "name": "worknotes",
+  "name": "work-notes",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,8 +13,8 @@
     "@gitbook-ng/gitbook-plugin-sharing": "^1.0.3",
     "gitbook-plugin-back-to-top-button": "^0.1.4",
     "gitbook-plugin-code": "^0.1.0",
+    "gitbook-plugin-cuav-chapters": "^1.0.3",
     "gitbook-plugin-edit-link": "^2.0.2",
-    "gitbook-plugin-expandable-chapters": "^0.2.0",
     "gitbook-plugin-fontsettings": "^2.0.0",
     "gitbook-plugin-heading-anchors": "^1.0.3",
     "gitbook-plugin-search-pro": "^2.0.2",

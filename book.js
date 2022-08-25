@@ -21,7 +21,7 @@ module.export = {
         // code 插件，现实行号
         "code",
         // 折叠菜单
-        "expandable-chapters",
+        // "expandable-chapters",
         // 返回顶部按钮
         "back-to-top-button",
         // 编辑当前页
@@ -34,16 +34,18 @@ module.export = {
         "heading-anchors",
         // 主题
         "theme-fexa",
+        // 目录
+        "cuav-chapters",
     ],
     "pluginsConfig": {
         // 去掉 code 插件中的复制按钮 true：显示复制按钮 false：不显示复制按钮
         "code": {
             "copyButtons": true
         },
-        "expandable-chapters": {},
+        // "expandable-chapters": {},
         "edit-link": {
-            "base": "https://github.com/titlark/WorkNotes/edit/BRANCH/path/to/book",
-            "label": "Edit This Page"
+            "base": "https://github.com/titlark/work-notes/edit/BRANCH/path/to/book",
+            "label": "编辑"
         },
         "sharing": {
             "facebook": false,
@@ -66,14 +68,20 @@ module.export = {
             "search-placeholder": "输入关键字搜索",
             "logo": "./logo.png",
             "favicon": "./favicon.ico"
-        }
+        },
+        // "cuav-chapters": {
+        //     // 动态目录的url
+        //     "chaptersUrl": "/xxx.json",
+        //     "summaryMaxSize": 20,
+        //     "useLimitExpanded": false
+        // }
     },
     "variables": {
-        "themeFexa":{
-            "nav":[
+        "themeFexa": {
+            "nav": [
                 {
-                    "url":"/docs/java/java.html",
-                    "target":"_blank",
+                    "url": "/docs/java/java.html",
+                    "target": "_self",
                     "name": "JAVA"
                 }
             ]
